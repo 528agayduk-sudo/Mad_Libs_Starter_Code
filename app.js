@@ -10,12 +10,11 @@
 // Hint: let age = Number(prompt("Enter an age:"));
 
 // PART 2 — DATA TYPES
-// TODO: Declare a real Boolean: const isRidiculous = true; (true is NOT "true").
-// TODO: Log typeof for a string, a number and a Boolean with labels.
+// TODO: Log typeof for a string, a number
 // Hint: console.log("Animal type:", typeof animal);
 
 // PART 3 — VARIABLE CHANGES AND CONCATENATION
-// TODO: Reassign one let variable after its first value (use the updated value).
+// TODO: Reassign one let variable after its first value (use the updated value).+
 // TODO: Combine a quoted string and a variable with +; show the result.
 // Hint: let message = "Meet " + animal;
 
@@ -36,3 +35,12 @@
 
 // FINAL: Add at least three meaningful comments describing your code.
 // TEST: Try TWO sets of answers and check the browser console for errors.
+let person1 = prompt("Please enter a person's name:");
+let adjective1 = prompt("Please enter a adjective:");
+let place1 = prompt("Please enter a place:");
+let time1 = prompt("Please enter a time of day:");
+let pastverb1 = prompt("Please enter a past tense verb:");
+let pastverb2 = prompt("Please enter a past tense verb:");
+
+const lolHilariousLol = true;
+let story = `Last Sundaterday, ${person1} woke up at ${time1} and they were feeling ${adjective1}. They ${pastverb1} out of bed and ${pastverb2} to the ${place1}.`
