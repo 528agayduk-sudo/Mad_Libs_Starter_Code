@@ -31,16 +31,24 @@
 
 // PART 6 — DISPLAY ON THE WEBPAGE
 // TODO: Uncomment and complete the line below once your story variable exists.
-// document.getElementById("madlib-output").innerHTML = story;
 
 // FINAL: Add at least three meaningful comments describing your code.
 // TEST: Try TWO sets of answers and check the browser console for errors.
 let person1 = prompt("Please enter a person's name:");
+let age = Number(prompt("Please enter your age"));
+const dogage = age / 4;
 let adjective1 = prompt("Please enter a adjective:");
 let place1 = prompt("Please enter a place:");
 let time1 = prompt("Please enter a time of day:");
-let pastverb1 = prompt("Please enter a past tense verb:");
+let pastverb1 = prompt("Please enter aa past tense verb:");
 let pastverb2 = prompt("Please enter a past tense verb:");
+let job1 = prompt("Please enter your a job");
+let ingverb = prompt("Please enter an -ing verb");
+let whathappened = dogage * 9;
+let noun1 = prompt("Please enter a noun");
+let bumber = Number(prompt("Please enter a number"));
+let increasedage = dogage + bumber;
+let decreasedage = increased age % 10;
 
-const lolHilariousLol = true;
-let story = `Last Sundaterday, ${person1} woke up at ${time1} and they were feeling ${adjective1}. They ${pastverb1} out of bed and ${pastverb2} to the ${place1}.`
+let story = `Last Sundaterday, ${person1} woke up at ${time1} and they were feeling ${adjective1}. They ${pastverb1} out of bed and ${pastverb2} to the ${place1}. On the way there, they ran into a ${job1} who saw them of ${ingverb} their dog who was ${dogage} years old, but after that happened, it is now ${whathappened} years old. To save the dog. ${person1} and the ${job1} used an experimental ${noun1}. the ${noun1} took ${bumber} years to work, so the dog is now ${increasedage} years old. After extensive physical therapy, the dog's age went from ${increasedage} to ${decreasedage}`
+document.getElementById("madlib-output").innerHTML = story;
